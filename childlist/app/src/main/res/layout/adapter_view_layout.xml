@@ -2,42 +2,81 @@
 <!--<android.support.constraint.ConstraintLayout-->
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="horizontal"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:weightSum="100">
+    android:layout_height="match_parent">
 
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="TextView1"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:fontFamily="sans-serif-black" />
 
     <TextView
         android:gravity="center"
         android:textAlignment="center"
-        android:text="TextView1"
-        android:layout_width="match_parent"
+        android:text="TextView2"
+        android:layout_width="100dp"
         android:layout_height="60dp"
-        android:id="@+id/textView1"
-        android:layout_weight="66.6"/>
+        android:id="@+id/textView2"
+        android:textSize="20sp"
+        app:fontFamily="sans-serif-black" />
 
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="33.3">
+    <TextView
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="TextView3"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:id="@+id/textView3"
+        android:textSize="20sp"
+        app:fontFamily="sans-serif-black" />
 
-        <TextView
-            android:gravity="center"
-            android:text="TextView2"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:id="@+id/textView2"/>
+    <TextView
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="TextView4"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:id="@+id/textView4"
+        android:textSize="20sp"
+        app:fontFamily="sans-serif-black" />
 
-        <TextView
-            android:gravity="center"
-            android:text="TextView3"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:id="@+id/textView3"
-            android:layout_below="@+id/textView2"/>
-    </LinearLayout>
+    <TextView
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="TextView5"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:id="@+id/textView5"
+        android:textSize="20sp"
+        app:fontFamily="sans-serif-black" />
+
+    <TextView
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="TextView6"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:id="@+id/textView6"
+        android:textSize="20sp"
+        app:fontFamily="sans-serif-black" />
+
+    <TextView
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="TextView7"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:id="@+id/textView7"
+        android:textSize="20sp"
+        app:fontFamily="sans-serif-black" />
 
 <!--</android.support.constraint.ConstraintLayout>-->
 </LinearLayout>
